@@ -27,13 +27,15 @@ body{
     justify-content: space-between;
     position: sticky;
     height: 4em;
-    padding: 3em 2em 2em 2em;
+    padding: 3em 2em 2em 3em;
 }
 
 #navbar .navbar{
     display: flex;
     align-items: center;
-    width: 60%;
+    justify-content: space-around;
+    width: 80%;
+    padding: 2%;
 }
 
 #navbar .navbar .main-logo{
@@ -42,12 +44,14 @@ body{
     justify-content: space-between;
     font-family: jaro;
     width : 6em;
+    height: 3em;
+    padding: 0em  em;
     gap: 1em;
 }
 
 #navbar .navbar .main-logo .main-logo-image{
-    height: 1.5em;
-    width: 2em;
+    height: 3em;
+    width: 3em;
 }
 
 #navbar .navbar .main-logo .main-logo-image img{
@@ -102,25 +106,29 @@ body{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    width: 40%;
+    width: 20%;
     height: 2em;
     gap: 1em;
 }
 
 #navbar .join .join-team{
     background-color: #ffb800;
-    padding: 1em;
+    padding: .5em;
     font-size: 50%;
     border-radius: 1.5em;
     font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     color: black;
+    box-shadow: .3em .3em rgba(0, 0, 0, 0.384) ;
 }
 
 #navbar .join .vector{
     height: 2em;
     background-color: #252525;
     box-shadow: 1px 2px 2px black;
-    border-radius: 50%;
     border-radius: 100%;
     display: flex;
     align-items: center;
